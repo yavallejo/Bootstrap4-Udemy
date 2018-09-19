@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Curso de bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Quattrocento:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body data-spy="scroll" data-target="#menu-principal" data-offset="50">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="menu-principal">
+        <div class="container ">
+          <a class="navbar-brand" href="#inicio">
+            <img src="img/logo.png">
+          </a>
+          <!-- Logo -->
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="d-flex flex-column flex-lg-row w-100">
+              <ul class="navbar-nav justify-content-end w-100 navbar-principal order-2 order-lg-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#yo">Yo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactame">Contactame</a>
+                </li>
+              </ul>
+              <!-- Menu Principal -->
+              <ul class="navbar-nav redes-sociales order-1 order-lg-2">
+                <li>
+                  <a href="#">
+                    <img src="img/icon-facebook.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/icon-twitter.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/icon-instagram.png">
+                  </a>
+                </li>
+              </ul>
+              <!-- Redes Sociales -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <main class="main" >
+      <section class="container mt-4" id="inicio">
+        <article id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/music-life.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="carousel-caption--titulos">Estrenos Musicales</h3>
+                  <p class="carousel-caption--descripcion">Comparte y promociona tu música en línea</p>
+                  <a href="#" class="btn btn-warning">Contactame</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/music-party.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="carousel-caption--titulos">La Musica es mi vida</h3>
+                    <p class="carousel-caption--descripcion">¿Ir al concierto de revelación? omita la línea y preordene / recoja en el espectáculo</p>
+                  <a href="#" class="btn btn-warning">Comprar ahora</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/music-micro.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="carousel-caption--titulos">Canciones de los 90</h3>
+                    <p class="carousel-caption--descripcion">Los mejores exitos de la epoca , aqui en Music XXX</p>
+                    <a href="#" class="btn btn-warning">Radio online</a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+        </article>
+      </section>
+      <!-- Slider -->
+      <section class="container pt-7 pb-5" id="servicios">
+        <header class="row">
+          <div class="col text-center">
+            <h2 class="titulosSection">Servicios</h2>
+            <p class="subtitulosSection">Administramos tus redes sociales, diseñamos sitios web y más. ¡Te invitamos a conocer nuestros servicios!</p>
+          </div>
+        </header>
+        <article class="row mt-5">
+            <div class="col-sm-4 mb-3 mb-md-0">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/servicio-1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Servicio 1</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-md-0">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/servicio-2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Servicio 2</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 ">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/servicio-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Servicio 3</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+
+        </article>
+      </section>
+      <!-- Servicios -->
+      <section class="container-fluid pt-7 container-sinpadding" id="yo">
+        <div class="row no-gutters">
+          <article class="col-12 col-lg-6">
+            <img src="img/isabella.jpg" class="img-fluid d-none d-lg-block">
+            <img src="img/isabella-mobile.jpg" class="img-fluid  d-lg-none">
+          </article>
+          <article class="col bg-azul text-white informacionDj">
+              <header class="informacionDj__header">
+                <h2>Isabella Wonderland</h2>
+                <h4>DJ y Productora Musical</h4>
+              </header>
+              <div class="mt-5">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <a href="#" class="btn-lg btn-outline-light mt-5 d-inline-block border border-white">Contactame</a>
+              </div>
+          </article>
+        </div>
+      </section>
+      <!-- Biografia -->
+      <section class="container-fluid bg-amarillo text-white p-5">
+          <h3 class="titulosSection text-white text-center">Suscríbete ahora y no te pierdas ningún artículo</h3>
+          <article class="row justify-content-center">
+            <form class="form-inline mt-3 ">
+              <input type="text" class="form-control  form-control-lg rounded-0" placeholder="Nombre">
+              <input type="text" class="form-control  form-control-lg rounded-0"  placeholder="Dirección de correo">
+              <button type="submit" class="btn btn-primary btn-lg rounded-0">Suscribirse</button>
+            </form>
+          </article>
+      </section>
+      <!-- Mailchimp -->
+      <section class="container-fluid bg-gris--light pt-7 pl-5 pr-5 pb-5" id="galeria">
+        <h3 class="titulosSection text-primary text-center">Galeria de imagenes</h3>
+        <article class="row no-gutters mt-5">
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
+              </div>
+            </div>
+        </article>
+      </section>
+      <!-- Galeria -->
+      <section class="container pt-7 pb-5" id="proyectos">
+        <header class="row">
+          <div class="col text-center">
+            <h2 class="titulosSection text-primary">Proyectos</h2>
+          </div>
+        </header>
+        <article class="row mt-5">
+            <div class="col-sm-4 mb-3 mb-md-0">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/proyecto-1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Proyecto 1</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-md-0">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/proyecto-2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Proyecto 2</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/proyecto-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Proyecto 3</h3>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Leer Más</a>
+                </div>
+              </div>
+            </div>
+        </article>
+      </section>
+      <!-- Proyectos -->
+      <section class="container-fluid pt-7 pb-5 container-sinpadding" id="contactame">
+        <div class="row no-gutters">
+          <article class="col-12 col-lg-6 embed-responsive">
+              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.5165528563975!2d-80.60637068518471!3d40.4638359606982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88343b1a17ec9137%3A0xc9500dad26193167!2s112+Findley+St%2C+Toronto%2C+OH+43964%2C+EE.+UU.!5e0!3m2!1ses!2sco!4v1510503286511" width="1200" height="1100" frameborder="0" allowfullscreen></iframe>
+          </article>
+          <article class="col bg-azul text-white informacionDj">
+              <header class="informacionDj__header">
+                <h2 class="text-center titulosSection text-white">Contáctame</h2>
+              </header>
+              <form class="mt-5">
+                <div class="form-group">
+                  <label for="nombre_completo">Nombre</label>
+                  <input type="text" class="form-control" id="nombre_completo" aria-describedby="nombrecompleto" placeholder="Nombre Completo" required>
+                </div>
+                <div class="form-group">
+                  <label for="correo_electronico">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="correo_electronico" aria-describedby="emailHelp" placeholder="Ejemplo: hi@adatheme.com">
+                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+                </div>
+                <div class="form-group">
+                  <label for="pais">Pais</label>
+                  <select class="form-control" id="pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Mexico">Mexico</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="asunto">Asunto</label>
+                  <input type="text" class="form-control" id="asunto" aria-describedby="nombrecompleto">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea class="form-control" rows="5" id="mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-outline-light mt-5 d-inline-block border border-white float-right">Enviar</button>
+              </form>
+          </article>
+        </div>
+      </section>
+      <!-- Formulario de contacto -->
+    </main>
+    <footer class="bg-gris--light p-2 footer">
+      <span class="desarrollado d-block text-center">Desarrollado por <a href="https://twitter.com/yavallejo" target="_blank" class="text-primary">@yavallejo</a></span>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.nav-link').on('click', function(e){
+            e.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop:$(hash).offset().top
+            }, 1000, function(){
+              window.location.hash = hash
+            })
+          })
+        })
+    </script>
+  </body>
+</html>
