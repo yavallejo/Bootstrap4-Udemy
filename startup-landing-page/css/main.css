@@ -1,0 +1,18 @@
+h1{
+    color:#fff
+}
+
+body,
+html{
+    background:#0F2027;
+    background:-webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+    background:linear-gradient(to top, #2C5364, #203A43, #0F2027);
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
